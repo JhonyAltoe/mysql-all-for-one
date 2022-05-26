@@ -1,0 +1,1 @@
+SELECT notes FROM northwind.purchase_orders WHERE SUBSTR(notes,-2,2) BETWEEN 30 AND 39;
